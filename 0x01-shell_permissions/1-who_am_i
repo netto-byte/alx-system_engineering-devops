@@ -1,3 +1,2 @@
 #!/bin/bash
-username=$(id -un)
-echo "Effective username: $username"
+whoami

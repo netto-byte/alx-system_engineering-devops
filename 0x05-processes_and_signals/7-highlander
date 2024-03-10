@@ -3,10 +3,9 @@
 #+ and sleeps for 2 second after every display, and
 #+ displays 'I am invicible!!!' when receiving a SIGTERM signal
 
-trap 'echo "I am invicible!!!"' SIGTERM
-
 while true
 do
 	echo "To infinity and beyond"
 	sleep 2
+	trap 'echo "I am invicible!!!"' SIGTERM
 done

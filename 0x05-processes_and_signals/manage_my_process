@@ -1,4 +1,9 @@
 #!/usr/bin/env bash
-# Displays its own PID
+# Indefinitely writes "I am alive" to the file /tmp/my_process.
+#   Pauses two seconds in between each message.
 
-echo $$
+while true
+do
+  echo "I am alive!" >> /tmp/my_process
+  sleep 2
+done

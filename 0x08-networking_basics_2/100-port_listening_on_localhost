@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 # Listens on port 80 on localhost
-netcat -l localhost 80
+
+netcat -l localhost 98

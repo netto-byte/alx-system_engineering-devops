@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Restarts the Apache2 server
+
+service apache2 restart
